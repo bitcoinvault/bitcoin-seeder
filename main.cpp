@@ -401,7 +401,7 @@ extern "C" void* ThreadStats(void*) {
   return nullptr;
 }
 
-static const string mainnet_seeds[] = {"a.seed.bitcoinvault.global", ""); // VAULT
+static const string mainnet_seeds[] = {"bootstrap.bitcoinvault.global", ""}; // VAULT
 static const string testnet_seeds[] = {""};
 static const string *seeds = mainnet_seeds;
 
